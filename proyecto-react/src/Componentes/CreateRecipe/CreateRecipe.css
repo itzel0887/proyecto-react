@@ -1,0 +1,152 @@
+
+
+.contenedor{
+    position: relative;
+   
+
+
+}
+
+.botones-estaticos{
+    display: flex;
+    position:absolute ;
+    right:5%;
+    top: 5%;
+    width: 25%;
+    height:50px;
+ justify-content: space-around;
+ cursor: pointer;
+ 
+}
+
+.boton-borrar, .boton-guardar, .boton-volver-Inicio{
+ margin: 5px;
+  
+}
+.boton-borrar{
+border-color:#F15626;
+font-size: 15px;
+border-radius: 7px;
+border-width:1px;
+width: 100px;
+background-color: white;
+color: red;
+font-weight: bold;
+
+}
+.boton-guardar  {
+    padding: 5px;
+ border-color: gray;
+    border-radius: 7px;
+    border-width: 1px;
+    background-color: white;
+    color:black;
+    font-size: 15px;
+    width: 200px;
+    font-weight: bold;
+}
+
+.boton-volver-Inicio{
+    border-color:#F15626;
+    border-radius: 7px;
+    border-width: 1px;
+    background-color:red;
+    color:white;
+    font-size: 15px;
+    width: 200px;
+    font-weight: bold;
+
+
+}
+.container-titulo{
+    display: flex;
+    position:relative;
+
+}
+.container-titulo input{
+margin:5px;
+width: 400px;
+
+color: #ccc;
+
+}
+input::placeholder {
+    color: #ccc;
+   
+}
+textarea::placeholder{
+    color: #ccc;
+}
+
+.boton-mas{
+display: flex;
+    border: none;
+    border-width: 0cap;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 30%;
+    color: #ccc;
+    cursor: pointer;
+}
+
+   
+   
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  
+
+}
+.ingredientes-contenedor{
+display: flex;
+position:relative;
+
+
+}
+.pasos{
+    position: absolute;
+    left: 50%;
+padding: 2rem;
+    top: 80%;
+    font-size: 30px;
+    font-weight: bold;
+    color:#4A4A4A;
+  
+
+    
+}
+.pasos textarea{
+    width: 500px;
+    height: 80px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+
+ 
+}
+
+.ingredientes{
+    position: absolute;
+    right: 50%;
+    top: 10%;
+padding: 2rem;
+font-size: 30px;
+font-weight: bold;
+color: #4A4A4A;
+
+
+
+}
+.ingredientes input{
+border-color: #ccc;
+    width: 500px;
+}
+
+   
+
+
